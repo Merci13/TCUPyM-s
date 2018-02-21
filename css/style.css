@@ -12,11 +12,20 @@
 }
 }
 
-/*body{
+body{
 
 	font-family: 'Adamina';
 	font-size: 22px;
-}*/
-body{
-	font-size: 33px;
+
+}
+
+h3 {
+	font-family: 'Alegreya';font-size: 24px;
+}
+
+.row{
+	padding-top: 30px;
+}
+.footer  {
+ 
 }
