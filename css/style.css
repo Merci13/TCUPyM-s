@@ -1,0 +1,22 @@
+
+
+
+.navbar{
+	background: linear-gradient(to right, #9a5329 , #FFF100);
+}
+
+
+@media(max-width:990px){
+.nav-link:hover{
+	background:linear-gradient(to right, #a7571e  ,#daca14 );
+}
+}
+
+/*body{
+
+	font-family: 'Adamina';
+	font-size: 22px;
+}*/
+body{
+	font-size: 33px;
+}
