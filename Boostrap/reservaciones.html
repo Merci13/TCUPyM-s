@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		
-		<title>Árbol Dorado</title>
-		
 		<link rel="imagenes/favicon.ico" href="/favicon.ico" />
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,9 +24,9 @@
 					</button>
 					<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
 						<div class="navbar-nav">
-							<a class="nav-item nav-link active" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-							<a class="nav-item nav-link" href="acerca.html">Acerca de Nosotros</a>
-							<a class="nav-item nav-link" href="reservaciones.html">Reservaciones</a>
+							<a class="nav-item nav-link " href="index.html">Inicio </a>
+							<a class="nav-item nav-link " href="acerca.html">Acerca de Nosotros</a>
+							<a class="nav-item nav-link active" href="reservaciones.html"> Reservaciones<span class="sr-only">(current)</span></a>
 							<a class="nav-item nav-link" href="galeria.html">Galeria</a>
 							<a class="nav-item nav-link" href="contactos.html">Contactos</a>
 							<a class="nav-item nav-link" href="hubicacion.html">Hubicacion</a>
@@ -40,71 +37,87 @@
 			</div>
 		</div>
 		
-		<div class="row">
-			<div class="container">
-				<div class="col-xs-12 col-sm-12 col-md-12  col-lg-12">
-					<h1>Hotel Árbol Dorado</h1>	<br>
-					<h3>Un lugar para descansar</h3>
-					<h2>Descripción</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="container">
+		<div class="container">
+			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<h3>Servicios</h3>
+					<h1>Politicas de reservacion</h1>
+					<br>
+					<h3>CHECK OUT:</h3>
+					<hr>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						10:00 am de lunes a viernes. <br>
+						12 md sábados y domingos. <br>
+						En caso de salir después de la hora indicada, el hotel realizará un cargo del 50% de la tarifa correspondiente. <br>
+						Los huéspedes que realicen su check-out antes de la fecha indicada sin previo aviso, se les cargará un <br>monto de $10 por habitación por cada noche anticipada. <br><br>
+						<strong>No se aceptan personas en estado etílico.</strong> <br><br>
+						<strong>No se aceptan mascotas.</strong> <br><br>
+						<strong>Prohibido fumar en las habitaciones.</strong> <br><br>
 					</p>
 				</div>
+				
 			</div>
-		</div>
-		
-		<div class="row">
-			<div class="container">
+			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<h3> Hubicación</h3>
-					<p>Estamos hubicados contigo al <strong> Colegio Tecnico Profecional Santa Clara</strong></p>
-					<br>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<h3>CHECK IN:</h3>
+					<hr>
+					<p>La hora de entrada es a las 2:00 pm <br>
+						Si necesita la habitación antes de las 2pm, esto queda sujeto a disponibilidad.
+					</p>
 				</div>
 				
 			</div>
 			
 		</div>
 
-		<!--video promocional-->
-		<div class="row">
-			<div class="container">
-				<h2>Video Promocional</h2>
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 video-promocional">
+		<div class="container">
+			<div class="row">
+				<div class="form col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<form>
+						<div class="form-group">
+							<label for="correo">Correo</label>
+							<input type="email" name="correo" id="correo" class="form-control col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						</div>
+						<div class="form-group">
+							<label for="nombre">Nombre</label>
+							<input type="text" name="nombre" id="nombre" class="form-control col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
+						</div>
 					
 						
+							
 					
+						<div class="form-group">
+						<label for="niños">Cantidad de Niños</label>
+						<input type="number" min="0" max="6" name="niños" id="niños" value="0" class="form-control col-xs-1 col-sm-1 col-md-1 col-lg-1" >
+						</div>
+
+						<div class="form-group">
+							<label for="adultos">Cantidad de Adultos</label>
+						<input type="number" min="1" max="6" name="adultos" id="adultos" value="1" class="form-control col-xs-1 col-sm-1 col-md-1 col-lg-1" >
+						</div>
+						<div class="form-group">
+							
+						<label for="entrada">Entrada</label>
+						<input type="date" name="entrada" id="entrada" class="form-control col-xs-6 col-sm-6 col-md-6 col-lg-6" >
+						</div>
+						<div class="form-group">
+							<label for="salida">Salida</label>
+						<input type="date" name="salida" id="salida" class="form-control col-xs-6 col-sm-6 col-md-6 col-lg-6" >
+						</div>
+						<div class="form-group">
+							<input type="submint" name="ok" value="Crear la Reservacion"  type="button" class="btn btn-default">
+						</div>
+							
+						
+
+
+						
+
 					
-						<iframe src="https://www.youtube.com/embed/a3a_n7iI7NI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-					
+					</form>
 				</div>
 			</div>
+			
 		</div>
-
-
 
 
 
@@ -124,7 +137,7 @@
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 						<nav class="nav">
 							<ul>
-								<li><a href="#"> -Icono</a></li>
+								<li><a href="#"> Icono</a></li>
 								
 							</ul>
 						</nav>
@@ -134,9 +147,8 @@
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 						<nav class="nav">
 							<ul>
-								<li><a href="#"> -icono</a></li>
+								<li><a href="#"> Icono</a></li>
 								
-
 							</ul>
 						</nav>
 					</div>
