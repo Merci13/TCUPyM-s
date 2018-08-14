@@ -75,6 +75,7 @@ p {
   }
 }
 
+
 .icon-block {
   padding: 0 15px;
 }
@@ -85,3 +86,12 @@ p {
 footer.page-footer {
   margin: 0;
 }
+#galeria-imagenes{
+  display: flex;
+  justify-content: space-between;
+  align-self: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
